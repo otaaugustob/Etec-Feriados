@@ -1,4 +1,4 @@
-package enums;
+package br.com.etechoracio.feriados.enums;
 
 public enum TipoFeriadosEnum {
 	
@@ -10,6 +10,14 @@ public enum TipoFeriadosEnum {
 	private String descricao;
 
 	private TipoFeriadosEnum(String descricao) {
+		this.setDescricao(descricao);
+	}
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
 	

@@ -15,13 +15,13 @@ TP_FERIADO		VARCHAR(30)  NOT NULL
 GO
 
 INSERT INTO TBL_FERIADOS (TX_NOME, DATA_FERIADO, TP_FERIADO) VALUES
-('Dia de Nsa Senhora Aparecida','2018-10-12','Feriado Nacional');
+('Dia de Nsa Senhora Aparecida','2018-10-12','NACIONAL');
 INSERT INTO TBL_FERIADOS (TX_NOME, DATA_FERIADO, TP_FERIADO) VALUES
-('Independência do Brasil','2018-09-07','Feriado Nacional');
+('Independência do Brasil','2018-09-07','NACIONAL');
 INSERT INTO TBL_FERIADOS (TX_NOME, DATA_FERIADO, TP_FERIADO) VALUES
-('Dia da Revolução Constitucionalista','2018-07-09','Feriado Estadual');
+('Dia da Revolução Constitucionalista','2018-07-09','ESTADUAL');
 INSERT INTO TBL_FERIADOS (TX_NOME, DATA_FERIADO, TP_FERIADO) VALUES
-('Dia do Professor','2018-10-15','Facultativo');
+('Dia do Professor','2018-10-15','FACULTATIVO');
 
 SELECT * FROM TBL_FERIADOS;
 
