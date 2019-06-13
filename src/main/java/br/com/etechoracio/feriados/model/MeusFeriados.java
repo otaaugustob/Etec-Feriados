@@ -64,7 +64,9 @@ public class MeusFeriados {
 	}
 
 	@Temporal(TemporalType.TIMESTAMP)
-	@Column(name="DATA_FERIADO")	private Date dataferiado;
+	@Column(name="DATA_FERIADO")	
+	
+	private Date dataferiado;
 	
 
 }
